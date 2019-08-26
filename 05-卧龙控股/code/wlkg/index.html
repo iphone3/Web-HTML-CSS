@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>卧龙控股 | 首页</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	
+	<!--
+		1、设计稿分析
+			- 头部
+			- 导航
+			- 横幅
+			- 新闻
+			- 底部
+		
+		2、项目工程创建
+			- 创建对应文件夹
+			
+		3、根据模块划分，搭建页面基本框架
+		
+		4、将整体架构撑开
+		
+		5、一个个模块填充
+		
+		
+		PS截图:
+			- 矩形选框(选中需要截取的)
+			- command + c (复制)
+			- command + n (新建)
+			- command + v (黏贴)
+			- command + s (保存)
+			- 选择保存路径、保存类型、文件名称
+			
+		盒子模型 = content + padding + border + margin
+	-->
+	
+	<body>
+		<!--1、头部-->
+		<div id="header">
+			<div class="logo">
+				<a href="#">
+					<img src="img/logo.png" />
+				</a>
+			</div>
+			
+			<div class="search">
+				<form>
+					<input type="text" value="SERACH" class="text" />
+					<input type="submit" class="bt" value="" />
+				</form>
+			</div>
+		</div>
+		
+		<!--2、导航-->
+		<div id="nav">
+			<ul>
+				<li> <a href="#">集团介绍</a> </li>
+				<li> <a href="#">产品中心</a> </li>
+				<li> <a href="#">卧龙市场</a> </li>
+				<li> <a href="#">技术研发</a> </li>
+				<li> <a href="#">国际合作</a> </li>
+				<li> <a href="#">投资者关系</a> </li>
+				<li> <a href="#">新闻资讯</a> </li>
+				<li class="last"> <a href="#">人力资源</a> </li>
+			</ul>
+		</div>
+		
+		<!--3、横幅-->
+		<div id="banner">
+			<img src="img/banner.png" />
+		</div>
+		
+		<!--4、新闻-->
+		<div id="news">
+			<div class="news-1">
+				<div class="section1">
+					<h3>新闻资讯</h3>
+					<ul>
+						<li>
+							<a href="#">陈建成董事长出席ATB集团召开年度销售大会</a>
+							<span>2018-01-23</span>
+						</li>
+						<li>
+							<a href="#">陈建成出席ATB集团召开年度销售大会</a>
+							<span>2018-01-23</span>
+						</li>
+						<li>
+							<a href="#">陈建成董事长出席团召开年度销售大会</a>
+							<span>2018-01-23</span>
+						</li>
+						<li>
+							<a href="#">陈建成席ATB集团召开年度销售大会</a>
+							<span>2018-01-23</span>
+						</li>
+						<li>
+							<a href="#">董事长出席ATB集团召开年度销售大会</a>
+							<span>2018-01-23</span>
+						</li>
+						<li>
+							<a href="#">陈建成董事长出席ATB集会</a>
+							<span>2018-01-23</span>
+						</li>
+					</ul>
+				</div>
+				<div class="section2">
+					<h3>
+						卧龙介绍
+					</h3>
+					<p class="info1">公司成立于1984年，进过近30年的发展</p>
+					<p class="info2">已成为电气制作，房地产开发和金融投资三业并举的综合性扩跨国...</p>
+				</div>
+				<div class="section3">
+					<h3>人才招聘</h3>
+					<p>培养一流人才，铸造一流的工程实现员工与企业的共同发展</p>
+					<a href="#">
+						<img src="img/more.png" />
+					</a>
+				</div>
+			</div>
+			
+			<div class="news-2">
+				<h3>卧龙市场</h3>
+				<div class="content">
+					<div class="smallBox">
+						<img src="img/news2.png" />
+						<a href="#">交通轨道:犹豫主要采用电气牵引，而且轮轨摩擦阻力较小，与公共...</a>
+					</div>
+					<div class="smallBox">
+						<img src="img/news2.png" />
+						<a href="#">交通轨道:犹豫主要采用电气牵引，而且轮轨摩擦阻力较小，与公共...</a>
+					</div>
+					<div class="smallBox">
+						<img src="img/news2.png" />
+						<a href="#">交通轨道:犹豫主要采用电气牵引，而且轮轨摩擦阻力较小，与公共...</a>
+					</div>
+					<div class="smallBox" style="margin-right: 0;">
+						<img src="img/news2.png" />
+						<a href="#">交通轨道:犹豫主要采用电气牵引，而且轮轨摩擦阻力较小，与公共...</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--5、底部-->
+		<div id="footer">
+			<div class="section1">
+				<div class="view1">
+					<h3>产品中心</h3>
+					<ul>
+						<li> <a href="#">汽车电机</a> </li>
+						<li> <a href="#">日用电机</a> </li>
+						<li> <a href="#">特种电机</a> </li>
+						<li> <a href="#">大功率电机</a> </li>
+						<li> <a href="#">电子设备</a> </li>
+					</ul>
+					<ul style="margin: 0 70px;">
+						<li> <a href="#">汽车电机</a> </li>
+						<li> <a href="#">日用电机</a> </li>
+						<li> <a href="#">特种电机</a> </li>
+						<li> <a href="#">大功率电机</a> </li>
+					</ul>
+					<ul>
+						<li> <a href="#">汽车电机</a> </li>
+						<li> <a href="#">日用电机</a> </li>
+						<li> <a href="#">特种电机</a> </li>
+						<li> <a href="#">大功率电机</a> </li>
+					</ul>
+				</div>
+				<div class="view2" style="margin: 0 49px;">
+					<h3>技术研发</h3>
+					<ul style="margin-left: 10px;">
+						<li> <a href="#">汽车电机</a> </li>
+						<li> <a href="#">日用电机</a> </li>
+						<li> <a href="#">特种电机</a> </li>
+						<li> <a href="#">大功率电机</a> </li>
+					</ul>
+				</div>
+				<div class="view3">
+					<h3>销售网络</h3>
+					<img src="img/news3.png" />
+				</div>
+			</div>
+			
+			<div class="section2">
+				<div class="view1">
+					<a href="#">网站地图</a> <span>|</span>
+					<a href="#">联系我们</a> <span>|</span>
+					<a href="#">关注卧龙</a> <span>|</span>
+					<a href="#">采购系统入口</a>
+				</div>
+				
+				<div class="view2">
+					COPYRIGHT&nbsp;&copy;&nbsp;卧龙控股集团&nbsp;版权所有&nbsp;ICP备xxxxxxxxxx号&nbsp;技术支持: 博彩互动&nbsp;&nbsp;&nbsp;&nbsp;分享到: 
+					<a href="#"> <img src="img/share.png" /> </a>
+					<a href="#"> <img src="img/share.png" /> </a>
+					<a href="#"> <img src="img/share.png" /> </a>
+					<a href="#"> <img src="img/share.png" /> </a>
+					<a href="#"> <img src="img/share.png" /> </a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
