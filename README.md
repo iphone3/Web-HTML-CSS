@@ -1,7 +1,7 @@
 # Web前端开发之玩转HTML&CSS
 
-GitHub 地址: https://github.com/iphone3/Web-HTML-CSS
-更多优惠信息: http://bluezyz.com/index.php/about.html
+## GitHub 地址: https://github.com/iphone3/Web-HTML-CSS
+## 更多优惠信息: http://bluezyz.com/index.php/about.html
 
 ## 课程内容:
 ### 01-HTML基础
